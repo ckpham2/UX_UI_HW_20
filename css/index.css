@@ -229,7 +229,7 @@ button {
     border: none;
     border-radius: 25px;
     background-color: #D8E8E7;
-
+    text-decoration: none;
 }
 .cssChange {
     display: block;
