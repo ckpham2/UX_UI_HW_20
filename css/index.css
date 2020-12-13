@@ -262,7 +262,13 @@ h2 {
     font-weight: bold;
     text-align: center;
 }
-
+.casestudy-heading {
+    font-size: 26pt;
+    font-weight: bold;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
 h3 {
     font-size: 26pt;
     font-weight: bold;
