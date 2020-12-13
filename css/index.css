@@ -12,6 +12,9 @@ body {
     padding: 50px;
     margin: 0;
 }
+a {
+    text-decoration: none;
+}
 header{
     display: flex;
     text-align: right;
@@ -226,6 +229,7 @@ button {
     border: none;
     border-radius: 25px;
     background-color: #D8E8E7;
+    text-decoration: none;
 }
 .cssChange {
     display: block;
@@ -235,6 +239,7 @@ button {
     background-color: #4A807B;
     color: #1D1F1E;
     box-shadow: 0px 4px 4px grey;
+    text-decoration: none;
 }
 .caseStudy {
     align-items: center !important;
