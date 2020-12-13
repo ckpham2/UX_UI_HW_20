@@ -1,0 +1,385 @@
+link {
+    display: none;
+}
+header{
+    display: flex;
+    text-align: right;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    border: 15px;
+    padding: 50px;
+    margin: 0;
+}
+header{
+    display: flex;
+    text-align: right;
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: auto;
+}
+.text {
+    margin: 50px;
+}
+.jumbotron {
+    background-image: url(../images/LivingRoom_Hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-bottom: 0px !important;
+  }
+  .jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: #1D1F1E;
+    margin: 0px;
+    text-align: left;
+    margin-right: 700px;
+    margin-bottom: 250px;
+  } 
+.display-4 {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    vertical-align: top;
+}
+.lead {
+    display: flex !important;
+    align-items: left !important;
+    justify-content: left !important;
+    margin: 0px !important;
+}
+button:hover {
+    background-color: #A9CDCA;
+    color: #ffffff;
+}
+.nav {
+    height: 20px;
+    padding: 1%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+  
+  li {
+    font-size: 26px;
+    display: inline-block;
+  }
+  
+  li a {
+    display: block;
+    color: #1D1F1E;
+    text-align: center;
+    font-size: 20pt;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+      color: #4A807B;
+      text-decoration: underline;
+  }
+.nav{
+    display: inline-block;
+    vertical-align: top;
+}
+img {
+    background-image: url(/images/Caroline_Pham_Logos-05.png);
+    background-repeat: no-repeat;
+    float: left;
+}
+img .aboutMe {
+    background-repeat: no-repeat;
+    float: left;
+}
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 100000;
+    background-color: white;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bio {
+    height:592px;
+    float: left;
+    margin-left: 200px;
+    padding: 10px;
+}
+.content {
+    float: right;
+    font-size: 24pt;
+    font-weight: 500;
+}
+footer {
+    margin-top: 100px;
+}
+footer div {
+    display: inline-block;
+}
+footer .copyright {
+    display: inline-block;
+    width: 49%;
+    height: 30px;
+}
+footer .connect {
+    width: 50%;
+    text-align: right;
+}
+footer ul li a{
+    padding: 0 15px;
+}
+.nav {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    padding: 1%;
+}
+.paragraph {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    width: 500px;
+}
+.knowMe {
+    text-align: left;
+    line-height: auto;
+}
+.homeBio {
+    text-align: left;
+
+}
+.description {
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: left;
+    font-size: 17pt;
+}
+.colorBlock {
+    background-color: #D8E8E7;
+    padding: 20px;
+}
+.casestudy-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px !important;
+}
+.casestudy-userImage {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px !important;
+}
+.livingHeading {
+    font-size: 16pt;
+}
+.livingroom-text {
+    font-size: 14pt !important;
+}
+.livingroom-text2 {
+    font-size: 14pt !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.livingroom-text3 {
+    font-size: 14pt !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+p {
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: left;
+    line-height: auto;
+}
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    width: 150px;
+    font-size: 14px;
+    text-align: center;
+    color: #1D1F1E;
+    border: none;
+    border-radius: 25px;
+    background-color: #D8E8E7;
+}
+.cssChange {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    border-radius: 25px;
+    background-color: #4A807B;
+    color: #1D1F1E;
+    box-shadow: 0px 4px 4px grey;
+}
+.caseStudy {
+    align-items: center !important;
+    justify-content: center;
+}
+.casestudy-body {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+h1 {
+    font-size: 64pt;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+h2 {
+    font-size: 50pt;
+    font-weight: bold;
+    text-align: center;
+}
+h3 {
+    font-size: 26pt;
+    font-weight: bold;
+    display: flex;
+}
+h4 {
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: left;
+}
+html {
+    line-height: 1.7;
+}
+span {
+    color: #1D1F1E;
+}
+.workGrid {
+    display: grid;
+}
+.image {
+    grid-area: image;
+}
+.info {
+    grid-area: info;
+    text-align: center;
+}
+.title {
+    grid-area: title;
+}
+.titleInfo {
+    grid-area: titleInfo;
+}
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto
+                        auto;
+    grid-template-areas: 'title title'
+                         'titleInfo titleInfo';
+}
+.userContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-item {
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+.gridColumns1 {
+padding-left: 80px;
+padding-right: 30px;
+margin-left: 40px;
+}
+.gridColumns2 {
+    padding-left: 70px;
+    padding-right: 40px;
+    }
+    .gridColumns3 {
+        padding-left: 30px;
+        padding-right: 50px;
+        margin-right: 40px;
+        }
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: 'info image';
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.workcard2 {
+    grid-template-areas: 'image info';
+}
+.flexContainer {
+    display: flex;
+}
+.iconify {
+    height: auto;
+}
+.email {
+    display: flex;
+}
+
+@media only screen and (min-width: 600) {
+    .flexContainer {
+        flex-direction: column;
+        width: 100%;
+    }
+    .workGrid {
+        display: grid;
+    }
+    .image {
+        grid-area: image;
+    }
+    .info {
+        grid-area: info;
+        text-align: center;
+    }
+    .gridContainer {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto 
+                            auto 
+                            auto 
+                            auto 
+                            auto 
+                            auto;
+        grid-template-areas: 'image'
+                             'info'
+                             'image'
+                             'info'
+                             'image'
+                             'info';
+    }
+} 
+@keyframes bounce {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(720deg);
+    }
+  }
